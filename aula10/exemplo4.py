@@ -12,5 +12,6 @@ except ZeroDivisionError:
     print("Erro! Informe um número válido de funcionários!")
 else:
     print(f'Média por funcionário: {media_por_funcionario:.2f}')
+#SERÁ EXECUTADO SE DER ERRO OU NÃO
 finally:
     print("\n=== Programa encerrado ===")
