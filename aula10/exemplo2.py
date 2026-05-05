@@ -10,7 +10,7 @@ for i in range(5):
         print(f'Média por funcionário: {media_por_funcionario:.2f}')
     except ValueError:
         print('Informe um número!')
-        break
+        
     except ZeroDivisionError:
         print("Erro! Informe um número válido de funcionários!")
-        break
+        
